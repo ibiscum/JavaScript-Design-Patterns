@@ -18,7 +18,7 @@
     "@pollyjs/cli": "6.0.6",
     "@pollyjs/core": "6.0.6",
     "concurrently": "8.2.2",
-    "esbuild": "0.18.11",
+    "esbuild": "0.25.0",
     "serve": "14.2.1"
   },
   "dependencies": {

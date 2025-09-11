@@ -11,12 +11,12 @@
     "serve": "npm run build:client -- --servedir=. --watch"
   },
   "dependencies": {
-    "express": "4.18.2",
+    "express": "4.21.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "esbuild": "0.17.19",
+    "esbuild": "0.25.0",
     "react-helmet": "^6.1.0"
   }
 }
