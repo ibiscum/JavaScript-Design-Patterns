@@ -14,17 +14,20 @@
     "mocks": "polly listen -d ./recordings"
   },
   "devDependencies": {
-    "@pollyjs/adapter-fetch": "6.0.6",
+    "@pollyjs/adapter-fetch": "6.0.7",
     "@pollyjs/cli": "6.0.6",
     "@pollyjs/core": "6.0.6",
-    "concurrently": "8.2.2",
-    "esbuild": "0.25.1",
-    "serve": "14.2.1"
+    "concurrently": "9.2.1",
+    "esbuild": "^0.25.9",
+    "serve": "^14.2.5"
   },
   "dependencies": {
     "@11ty/is-land": "5.0.0",
+    "express": "5.1.0",
     "htm": "3.1.1",
+    "next": "15.5.3",
     "preact": "10.27.1",
-    "vue": "3.2.36"
+    "vite": "7.1.5",
+    "vue": "3.5.21"
   }
 }

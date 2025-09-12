@@ -8,6 +8,6 @@
     "build:key": "node generate-key.js"
   },
   "devDependencies": {
-    "esbuild": "0.25.9"
+    "esbuild": "^0.25.9"
   }
 }
