@@ -23,10 +23,14 @@ export default function CartPage({ cart, productsById }) {
   );
 }
 export async function getServerSideProps({ query }) {
-  const { cartId = 1 } = query;
-  return runWithHttpRecording(`ch5-cart-page-${cartId}`, async () => {
+  const { cartId: rawCartId = 1 } = query;
+  // Only allow positive integer cartIds to prevent SSRF and path traversal
+  const safeCartId = Number.isInteger(Number(rawCartId)) && Number(rawCartId) > 0
+    ? String(Number(rawCartId))
+    : "1";
+  return runWithHttpRecording(`ch5-cart-page-${safeCartId}`, async () => {
     /** @type {import('@/../../fakestoreapi').Cart} */
-    const cart = await fetch(`https://fakestoreapi.com/carts/${cartId}`).then(
+    const cart = await fetch(`https://fakestoreapi.com/carts/${safeCartId}`).then(
       (res) => res.json(),
     );
     /** @type {Record<number, import('@/../../fakestoreapi').Product>} */
