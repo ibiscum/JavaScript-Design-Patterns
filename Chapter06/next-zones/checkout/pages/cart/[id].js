@@ -96,7 +96,16 @@ export default function GetCartPage({ id, cart, productsById }) {
  */
 export async function getServerSideProps(ctx) {
   const { params } = ctx;
-  const cartId = params.id;
+  const cartIdRaw = params.id;
+
+  // Validate cartId: only allow positive integers
+  const cartId = /^[1-9][0-9]*$/.test(cartIdRaw) ? cartIdRaw : null;
+  if (!cartId) {
+    // Return error or fallback if cartId is not valid
+    return {
+      notFound: true, // tells Next.js to show 404
+    };
+  }
 
   return runWithHttpRecording(`ch6-next-zones-${cartId}`, async () => {
     /** @type {import('@/../../../fakestoreapi').Cart | null} */
