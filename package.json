@@ -5,8 +5,8 @@
   "description": "JavaScript Design Patterns published by Packt",
   "type": "module",
   "scripts": {
-    "start": "NODE_OPTIONS='--experimental-network-imports' node ./run.test.js",
-    "dev": "NODE_OPTIONS='--experimental-network-imports' node --watch ./run.test.js",
+    "start": "NODE_OPTIONS='' node ./run.test.js",
+    "dev": "NODE_OPTIONS='' node --watch ./run.test.js",
     "test": "node --test",
     "ch1": "npm start Chapter01",
     "ch2": "npm start Chapter02",
@@ -21,23 +21,19 @@
     "ch9:dynamic-import": "npm --prefix Chapter09/dynamic-import-vite run dev",
     "ch9:next-script": "npm --prefix Chapter09/next-route-based-splitting run dev",
     "ch10:asset-load": "npm --prefix Chapter10/asset-load-attributes run dev",
-    "ch10:next-script": "npm --prefix Chapter10/next-script-strategy run dev",
-    "format": "prettier --write ."
-  },
-  "prettier": {
-    "singleQuote": true
+    "ch10:next-script": "npm --prefix Chapter10/next-script-strategy run dev"
   },
   "author": "Hugo Di Francesco",
   "devDependencies": {
-    "@babel/parser": "7.28.4",
-    "@babel/traverse": "7.28.4",
+    "@babel/parser": "7.28.5",
+    "@babel/traverse": "7.28.5",
     "@pollyjs/adapter-fetch": "6.0.7",
     "@pollyjs/cli": "6.0.6",
     "@pollyjs/core": "6.0.6",
     "@pollyjs/persister-fs": "6.0.6",
-    "cross-env": "^10.0.0",
+    "cross-env": "^10.1.0",
     "jwt-decode": "4.0.0",
-    "prettier": "3.6.2"
+    "prettier": "3.7.4"
   },
   "workspaces": [
     ".",
