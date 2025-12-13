@@ -60,7 +60,8 @@
   window.addEventListener('message', async (event) => {
     if (!allowedMessageOrigins.includes(event.origin)) {
       console.warn(
-        `Dropping message due to non-allowlisted origin ${event.origin}`,
+        "Dropping message due to non-allowlisted origin:",
+        event.origin,
         event,
       );
       return;
