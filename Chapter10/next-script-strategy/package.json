@@ -8,7 +8,7 @@
     "start": "cross-env PORT=3333 next start"
   },
   "dependencies": {
-    "next": "15.5.3",
+    "next": "15.5.9",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
