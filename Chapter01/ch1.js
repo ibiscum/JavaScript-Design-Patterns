@@ -226,6 +226,7 @@ import { Logger as ImportedLogger, Logger } from './logger.js';
 import importedLoggerInstance from './logger.js';
 
 import { captureError } from '../utils.js';
+
 function threePointTwo() {
   const Logger = ImportedLogger;
 

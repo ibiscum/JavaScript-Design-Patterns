@@ -3,7 +3,7 @@ import { Polly } from '@pollyjs/core';
 import FSPersister from '@pollyjs/persister-fs';
 import FetchAdapter from '@pollyjs/adapter-fetch';
 
-export const captureError = (cb) => {
+export const captureError = (/** @type {() => void} */ cb) => {
   try {
     cb();
   } catch (e) {
