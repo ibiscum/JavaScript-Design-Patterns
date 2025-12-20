@@ -4,6 +4,6 @@
     "dev": "concurrently -k \"npm run dev --prefix ./root\" \"cross-env PORT=3001 npm run dev --prefix ./search\" \"cross-env PORT=3002 npm run dev --prefix ./checkout\""
   },
   "devDependencies": {
-    "concurrently": "8.2.2"
+    "concurrently": "9.2.1"
   }
 }

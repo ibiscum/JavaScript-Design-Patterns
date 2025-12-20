@@ -21,17 +21,21 @@
     "ch9:dynamic-import": "npm --prefix Chapter09/dynamic-import-vite run dev",
     "ch9:next-script": "npm --prefix Chapter09/next-route-based-splitting run dev",
     "ch10:asset-load": "npm --prefix Chapter10/asset-load-attributes run dev",
-    "ch10:next-script": "npm --prefix Chapter10/next-script-strategy run dev"
+    "ch10:next-script": "npm --prefix Chapter10/next-script-strategy run dev",
+    "lint": "eslint --fix ."
   },
   "author": "Hugo Di Francesco",
   "devDependencies": {
     "@babel/parser": "7.28.5",
     "@babel/traverse": "7.28.5",
+    "@eslint/js": "^9.39.2",
     "@pollyjs/adapter-fetch": "6.0.7",
     "@pollyjs/cli": "6.0.6",
     "@pollyjs/core": "6.0.6",
     "@pollyjs/persister-fs": "6.0.6",
     "cross-env": "^10.1.0",
+    "eslint": "^9.39.2",
+    "globals": "^16.5.0",
     "jwt-decode": "4.0.0",
     "prettier": "3.7.4"
   },

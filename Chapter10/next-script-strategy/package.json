@@ -8,11 +8,11 @@
     "start": "cross-env PORT=3333 next start"
   },
   "dependencies": {
-    "next": "14.2.35",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "16.1.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@builder.io/partytown": "0.8.1"
+    "@builder.io/partytown": "0.10.3"
   }
 }
