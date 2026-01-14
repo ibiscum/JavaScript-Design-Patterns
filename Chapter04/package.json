@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "parcel serve ./index.html",
     "dev:mocked": "ENABLE_MOCKS=true npm run dev",
-    "mocks": "polly listen -d ../../../recordings"
+    "mocks": "polly listen -d ../../../recordings",
+    "lint": "eslint --fix ."
   },
   "devDependencies": {
     "@pollyjs/adapter-fetch": "6.0.7",

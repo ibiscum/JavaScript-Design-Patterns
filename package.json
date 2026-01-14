@@ -44,8 +44,7 @@
     "./Chapter04",
     "./Chapter05/*",
     "./Chapter06/*",
-    "./Chapter06/next-zones/*",
-    "./Chapter08",
+    "./Chapter08/*",
     "./Chapter09/*",
     "./Chapter10/*"
   ]
