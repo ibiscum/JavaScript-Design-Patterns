@@ -1,5 +1,5 @@
 {
-  "name": "next-static-rendering",
+  "name": "@chapter-05/next-static-rendering",
   "version": "0.1.0",
   "private": true,
   "scripts": {

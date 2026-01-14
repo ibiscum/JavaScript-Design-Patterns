@@ -41,11 +41,11 @@
   },
   "workspaces": [
     ".",
-    "./Chapter04",
-    "./Chapter05/*",
-    "./Chapter06/*",
-    "./Chapter08/*",
-    "./Chapter09/*",
-    "./Chapter10/*"
+    "./chapter-04",
+    "./chapter-05/*",
+    "./Chapter-06/*",
+    "./Chapter-08/*",
+    "./Chapter-09/*",
+    "./Chapter-10/*"
   ]
 }

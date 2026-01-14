@@ -1,5 +1,5 @@
 {
-  "name": "ch5-react-rendering-strategies",
+  "name": "@chapter-05/react-rendering-strategies",
   "private": true,
   "scripts": {
     "build": "npm run build:client && npm run build:server && npm run build:rehydrate && npm run build:streaming-rehydrate",
