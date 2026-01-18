@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel serve ./index.html",
+    "ch04:dev": "parcel serve ./index.html",
     "dev:mocked": "ENABLE_MOCKS=true npm run dev",
     "mocks": "polly listen -d ../../../recordings",
     "lint": "eslint --fix ."

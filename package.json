@@ -5,10 +5,7 @@
   "description": "JavaScript Design Patterns published by Packt",
   "type": "module",
   "scripts": {
-    "start": "NODE_OPTIONS='' node ./run.test.js",
-    "dev": "NODE_OPTIONS='' node --watch ./run.test.js",
-    "test": "node --test",
-    "ch1": "npm start Chapter01",
+    "ch1": "npm start chapter-01",
     "ch2": "npm start Chapter02",
     "ch3": "npm start Chapter03",
     "ch4": "npm --prefix Chapter04 run dev",
