@@ -23,7 +23,7 @@
   },
   "author": "Hugo Di Francesco",
   "devDependencies": {
-    "@babel/parser": "7.28.5",
+    "@babel/parser": "7.29.2",
     "@babel/traverse": "7.29.0",
     "@eslint/js": "^10.0.1",
     "@pollyjs/adapter-fetch": "6.0.7",
