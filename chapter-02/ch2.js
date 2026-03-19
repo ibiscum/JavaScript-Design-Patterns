@@ -116,7 +116,7 @@ function proxyModern() {
     sensitiveField: 'redact-everything',
   };
   const redactedObjProxy = new Proxy(obj, {
-    get(target, property, _receiver) {
+    get(target, property) {
       if (target[property] instanceof Function) {
         return (...args) => {
           if (property.includes('sensitive')) {
@@ -516,7 +516,7 @@ function adapterClassical() {
     constructor() {
       this.uuidFactory = new UuidFactory();
     }
-    get(_entry) {
+    get() {
       return this.uuidFactory.generateUuid();
     }
   }

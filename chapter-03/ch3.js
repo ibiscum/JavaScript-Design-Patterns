@@ -413,8 +413,8 @@ stateStrategyClassical();
 
 function stateStrategyModern() {
   class IllegalOperationError extends Error {
-    constructor(stateInstance) {
-      this.stateInstance = stateInstance;
+    constructor() {
+      // this.stateInstance = stateInstance;
       throw new Error('Illegal operation for State');
     }
   }

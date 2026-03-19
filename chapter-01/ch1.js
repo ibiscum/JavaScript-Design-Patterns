@@ -222,7 +222,7 @@ twoPointFour();
 /**
  * 3.2
  */
-import { Logger as ImportedLogger, Logger } from './logger.js';
+import { Logger as ImportedLogger } from './logger.js';
 import importedLoggerInstance from './logger.js';
 
 import { captureError } from '../utils.js';

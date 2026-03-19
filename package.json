@@ -34,15 +34,6 @@
     "eslint": "^9.39.2",
     "globals": "^17.3.0",
     "jwt-decode": "4.0.0",
-    "prettier": "3.8.1"
-  },
-  "workspaces": [
-    ".",
-    "./chapter-04",
-    "./chapter-05/*",
-    "./Chapter-06/*",
-    "./Chapter-08/*",
-    "./Chapter-09/*",
-    "./Chapter-10/*"
-  ]
+    "prettier": "3.7.4"
+  }
 }
