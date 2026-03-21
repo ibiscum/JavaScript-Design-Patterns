@@ -1,11 +1,11 @@
 packages:
   - chapter-04
-  - chapter-05
-  - chapter-06
+  - chapter-05/**
+  - chapter-06/**
   - chapter-07
   - chapter-08
-  - chapter-09
-  - chapter-10
+  - chapter-09/**
+  - chapter-10/**
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
@@ -13,3 +13,4 @@ onlyBuiltDependencies:
   - esbuild
   - lmdb
   - msgpackr-extract
+  - sharp

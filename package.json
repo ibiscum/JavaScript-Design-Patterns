@@ -31,9 +31,9 @@
     "@pollyjs/core": "6.0.6",
     "@pollyjs/persister-fs": "6.0.6",
     "cross-env": "^10.1.0",
-    "eslint": "^9.39.2",
-    "globals": "^17.3.0",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
     "jwt-decode": "4.0.0",
-    "prettier": "3.7.4"
+    "prettier": "3.8.1"
   }
 }
