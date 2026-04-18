@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "express": "^5.2.1",
-    "next": "^16.2.3",
-    "react": "^19.2.5",
+    "next": ">=16.2.3",
+    "react": ">=19.2.5",
     "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "esbuild": "^0.28.0",
-    "react-helmet": "^6.1.0"
+    "esbuild": ">=0.28.0",
+    "react-helmet": ">=6.1.0"
   }
 }

@@ -8,14 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "esbuild": "0.27.4",
-    "next": "^16.2.3",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "esbuild": ">=0.27.4",
+    "next": ">=16.2.3",
+    "react": ">=19.2.4",
+    "react-dom": ">=19.2.4"
   },
   "devDependencies": {
-    "@pollyjs/adapter-fetch": "6.0.7",
-    "@pollyjs/core": "6.0.6",
-    "@pollyjs/persister-fs": "6.0.6"
+    "@pollyjs/adapter-fetch": ">=6.0.7",
+    "@pollyjs/core": ">=6.0.6",
+    "@pollyjs/persister-fs": ">=6.0.6"
   }
 }
