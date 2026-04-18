@@ -2,13 +2,13 @@
   "name": "@chapter-05/react-rendering-strategies",
   "private": true,
   "scripts": {
-    "build": "npm run build:client && npm run build:server && npm run build:rehydrate && npm run build:streaming-rehydrate",
+    "build": "pnpm run build:client && pnpm run build:server && pnpm run build:rehydrate && pnpm run build:streaming-rehydrate",
     "build:client": "esbuild client.jsx --bundle --outdir=dist --define:process.env.NODE_ENV=\\\"production\\\" --minify",
     "build:rehydrate": "esbuild rehydrate.jsx --bundle --outdir=dist --define:process.env.NODE_ENV=\\\"production\\\" --minify",
     "build:streaming-rehydrate": "esbuild streaming-rehydrate.jsx --bundle --outdir=dist --define:process.env.NODE_ENV=\\\"production\\\" --minify",
     "build:server": "esbuild server.js --bundle --platform=node --outdir=dist --define:process.env.NODE_ENV=\\\"production\\\" --minify",
-    "start": "npm run build:server && npm run build:rehydrate && npm run build:streaming-rehydrate && node dist/server.js",
-    "serve": "npm run build:client -- --servedir=. --watch"
+    "start": "pnpm run build:server && npm run build:rehydrate && npm run build:streaming-rehydrate && node dist/server.js",
+    "serve": "pnpm run build:client --servedir=. --watch"
   },
   "dependencies": {
     "express": "^5.2.1",

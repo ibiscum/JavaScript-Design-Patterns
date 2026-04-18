@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel serve ./index.html",
-    "dev:mocked": "ENABLE_MOCKS=true npm run dev",
+    "dev:mocked": "ENABLE_MOCKS=true pnpm run dev",
     "mocks": "polly listen -d ../../../recordings",
     "lint": "eslint --fix ."
   },
