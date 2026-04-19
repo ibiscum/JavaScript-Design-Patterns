@@ -1,4 +1,4 @@
-name: Delete old workflow runs
+name: "Delete Old Workflows"
 on: workflow_dispatch
   #schedule:
   #  - cron: "0 5 1 * *" # Monthly at 05:00 on the 1st
