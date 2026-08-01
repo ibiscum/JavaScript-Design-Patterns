@@ -49,13 +49,13 @@ importers:
     dependencies:
       formik:
         specifier: '>=2.4.9'
-        version: 2.4.9(@types/react@19.2.14)(react@19.2.5)
+        version: 2.4.9(@types/react@19.2.14)(react@19.2.8)
       react:
-        specifier: '>=19.2.4'
-        version: 19.2.5
+        specifier: '>=19.2.8'
+        version: 19.2.8
       react-dom:
         specifier: '>=19.2.7'
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
     devDependencies:
       '@pollyjs/adapter-fetch':
         specifier: '>=6.0.7'
@@ -86,13 +86,13 @@ importers:
         version: 0.28.1
       next:
         specifier: '>=16.2.11'
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: '>=19.2.4'
-        version: 19.2.5
+        specifier: '>=19.2.8'
+        version: 19.2.8
       react-dom:
         specifier: '>=19.2.7'
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
     devDependencies:
       '@pollyjs/adapter-fetch':
         specifier: '>=6.0.7'
@@ -111,20 +111,20 @@ importers:
         version: 5.2.1
       next:
         specifier: '>=16.2.11'
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: '>=19.2.5'
-        version: 19.2.5
+        specifier: '>=19.2.8'
+        version: 19.2.8
       react-dom:
         specifier: ^19.2.7
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
     devDependencies:
       esbuild:
         specifier: '>=0.28.1'
         version: 0.28.1
       react-helmet:
         specifier: '>=6.1.0'
-        version: 6.1.0(react@19.2.5)
+        version: 6.1.0(react@19.2.8)
 
   chapter-06/islands-is-land:
     dependencies:
@@ -139,7 +139,7 @@ importers:
         version: 3.1.1
       next:
         specifier: ^16.2.11
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       preact:
         specifier: 10.29.4
         version: 10.29.4
@@ -179,37 +179,37 @@ importers:
     dependencies:
       next:
         specifier: '>=16.2.11'
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: '>=19.2.4'
-        version: 19.2.5
+        specifier: '>=19.2.8'
+        version: 19.2.8
       react-dom:
         specifier: '>=19.2.7'
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
 
   chapter-06/next-zones/root:
     dependencies:
       next:
         specifier: '>=16.2.11'
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: '>=19.2.4'
-        version: 19.2.5
+        specifier: '>=19.2.8'
+        version: 19.2.8
       react-dom:
         specifier: '>=19.2.7'
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
 
   chapter-06/next-zones/search:
     dependencies:
       next:
         specifier: '>=16.2.11'
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: '>=19.2.4'
-        version: 19.2.5
+        specifier: '>=19.2.8'
+        version: 19.2.8
       react-dom:
         specifier: '>=19.2.7'
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
 
   chapter-08:
     devDependencies:
@@ -230,16 +230,16 @@ importers:
         version: 16.2.4
       next:
         specifier: ^16.2.11
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: ^19.2.5
-        version: 19.2.5
+        specifier: ^19.2.8
+        version: 19.2.8
       react-dom:
         specifier: ^19.2.7
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
       react-intersection-observer:
         specifier: ^10.0.3
-        version: 10.0.3(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 10.0.3(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       scroll-behavior-polyfill:
         specifier: ^2.0.13
         version: 2.0.13
@@ -258,13 +258,13 @@ importers:
     dependencies:
       next:
         specifier: ^16.2.11
-        version: 16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5)
+        version: 16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8)
       react:
-        specifier: ^19.2.5
-        version: 19.2.5
+        specifier: ^19.2.8
+        version: 19.2.8
       react-dom:
         specifier: ^19.2.7
-        version: 19.2.7(react@19.2.5)
+        version: 19.2.7(react@19.2.8)
     devDependencies:
       '@builder.io/partytown':
         specifier: ^0.10.3
@@ -2704,8 +2704,8 @@ packages:
     peerDependencies:
       react: ^16.3.0 || ^17.0.0 || ^18.0.0
 
-  react@19.2.5:
-    resolution: {integrity: sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==}
+  react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
 
   regenerator-runtime@0.14.1:
@@ -5009,14 +5009,14 @@ snapshots:
 
   flatted@3.4.2: {}
 
-  formik@2.4.9(@types/react@19.2.14)(react@19.2.5):
+  formik@2.4.9(@types/react@19.2.14)(react@19.2.8):
     dependencies:
       '@types/hoist-non-react-statics': 3.3.7(@types/react@19.2.14)
       deepmerge: 2.2.1
       hoist-non-react-statics: 3.3.2
       lodash: 4.18.1
       lodash-es: 4.18.1
-      react: 19.2.5
+      react: 19.2.8
       react-fast-compare: 2.0.4
       tiny-warning: 1.0.3
       tslib: 2.8.1
@@ -5363,16 +5363,16 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  next@16.2.11(react-dom@19.2.7(react@19.2.5))(react@19.2.5):
+  next@16.2.11(react-dom@19.2.7(react@19.2.8))(react@19.2.8):
     dependencies:
       '@next/env': 16.2.11
       '@swc/helpers': 0.5.15
       baseline-browser-mapping: 2.11.5
       caniuse-lite: 1.0.30001806
       postcss: 8.4.31
-      react: 19.2.5
-      react-dom: 19.2.7(react@19.2.5)
-      styled-jsx: 5.1.6(react@19.2.5)
+      react: 19.2.8
+      react-dom: 19.2.7(react@19.2.8)
+      styled-jsx: 5.1.6(react@19.2.8)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.11
       '@next/swc-darwin-x64': 16.2.11
@@ -5570,38 +5570,38 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  react-dom@19.2.7(react@19.2.5):
+  react-dom@19.2.7(react@19.2.8):
     dependencies:
-      react: 19.2.5
+      react: 19.2.8
       scheduler: 0.27.0
 
   react-fast-compare@2.0.4: {}
 
   react-fast-compare@3.2.2: {}
 
-  react-helmet@6.1.0(react@19.2.5):
+  react-helmet@6.1.0(react@19.2.8):
     dependencies:
       object-assign: 4.1.1
       prop-types: 15.8.1
-      react: 19.2.5
+      react: 19.2.8
       react-fast-compare: 3.2.2
-      react-side-effect: 2.1.2(react@19.2.5)
+      react-side-effect: 2.1.2(react@19.2.8)
 
-  react-intersection-observer@10.0.3(react-dom@19.2.7(react@19.2.5))(react@19.2.5):
+  react-intersection-observer@10.0.3(react-dom@19.2.7(react@19.2.8))(react@19.2.8):
     dependencies:
-      react: 19.2.5
+      react: 19.2.8
     optionalDependencies:
-      react-dom: 19.2.7(react@19.2.5)
+      react-dom: 19.2.7(react@19.2.8)
 
   react-is@16.13.1: {}
 
   react-refresh@0.16.0: {}
 
-  react-side-effect@2.1.2(react@19.2.5):
+  react-side-effect@2.1.2(react@19.2.8):
     dependencies:
-      react: 19.2.5
+      react: 19.2.8
 
-  react@19.2.5: {}
+  react@19.2.8: {}
 
   regenerator-runtime@0.14.1: {}
 
@@ -5860,10 +5860,10 @@ snapshots:
 
   strip-json-comments@2.0.1: {}
 
-  styled-jsx@5.1.6(react@19.2.5):
+  styled-jsx@5.1.6(react@19.2.8):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.5
+      react: 19.2.8
 
   supports-color@7.2.0:
     dependencies:

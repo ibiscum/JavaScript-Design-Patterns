@@ -11,7 +11,7 @@
   "dependencies": {
     "@next/bundle-analyzer": "^16.2.4",
     "next": "^16.2.11",
-    "react": "^19.2.5",
+    "react": "^19.2.8",
     "react-dom": "^19.2.7",
     "react-intersection-observer": "^10.0.3",
     "scroll-behavior-polyfill": "^2.0.13"
